@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.cas.go.jp)",
+      "WebFetch(domain:www.cyber.go.jp)",
+      "WebFetch(domain:www.ipa.go.jp)",
+      "WebFetch(domain:nihoncyberdefence.co.jp)",
+      "WebFetch(domain:www.npa.go.jp)",
+      "WebFetch(domain:www.sangiin.go.jp)",
+      "WebFetch(domain:www.nippon.com)",
+      "WebFetch(domain:www.nri-secure.co.jp)",
+      "WebFetch(domain:www.netone.co.jp)",
+      "WebFetch(domain:www.nikkei.com)",
+      "WebFetch(domain:keiyaku-watch.jp)",
+      "WebFetch(domain:www.gsx.co.jp)",
+      "WebFetch(domain:www.trendmicro.com)",
+      "WebFetch(domain:kpmg.com)",
+      "Bash(ls:*)",
+      "Bash(git init:*)",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams status)",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams add japan-cybersecurity-report.md)",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams commit -m \"$\\(cat <<''EOF''\nfeat: AI・量子技術がサイバーセキュリティに与える影響のセクションを追加\n\n新セクション9「新興技術がサイバーセキュリティに与える影響」を追加し、\nレポートを全10セクションから全11セクションに拡充。\n\n- 9.1 AI・AIエージェントとサイバーセキュリティ（攻撃側/防御側AI活用、AIセキュリティリスク、規制動向）\n- 9.2 量子技術・量子コンピュータとサイバーセキュリティ（暗号危殆化、PQC移行、QKD、各国量子戦略）\n- 9.3 日本への影響と対応の方向性\n- エグゼクティブサマリーにAI・量子の要約を追加\n- 課題と展望セクションのAI・量子課題を具体化\n- 参考情報源にAI・量子関連の出典22件を追加\nEOF\n\\)\")",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams remote -v)",
+      "Bash(gh repo create:*)",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams add README.md)",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams commit -m \"$\\(cat <<''EOF''\ndocs: READMEを追加\nEOF\n\\)\")",
+      "Bash(git -C /Users/suzuoki/Projects/cc-agent-teams push)",
+      "Bash(open https://github.com/suzuoki/cc-agent-teams)"
+    ]
+  }
+}
